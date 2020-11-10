@@ -69,8 +69,6 @@ def main():
 
     for i in range(n):
         a = []
-        # for j in range(m):
-        #     a.append(int(input()))
         a = list(map(int, input().split(" ")))
         maze.append(a)
 
